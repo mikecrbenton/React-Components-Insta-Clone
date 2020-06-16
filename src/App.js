@@ -11,13 +11,13 @@ import PostsPage from "./components/PostsContainer/PostsPage.js";
 import SearchBar from "./components/SearchBar/SearchBarContainer.js";
 import dummyData from "./dummy-data";
 
-const App = ( ) => {
+const App = () => {
 
   return (
     <div className="App">
       {/* Add imported components here to render them */}
       <SearchBar />
-      <PostsPage data={dummyData}/>
+      <PostsPage />
 
     </div>
   );
