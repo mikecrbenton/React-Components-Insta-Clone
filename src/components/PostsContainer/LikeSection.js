@@ -10,8 +10,6 @@ import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons'
 
 const LikeSection = props => {
 
-  console.log(props.increase)
-
   return (
     <div>
       <div
