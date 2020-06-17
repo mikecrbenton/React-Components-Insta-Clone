@@ -22,7 +22,18 @@
 .social-wrapper {
   display: flex;
 }
+.social{
+   width: 50px;
+}
 
-.social {
-  width: 50px;
+.social.home {
+  width: 100px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.instagram-logo{
+   
 }
